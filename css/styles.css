@@ -1,0 +1,149 @@
+
+header h1 {
+  font-size: 1.5rem;
+}
+
+.bl {
+color: black;
+
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer .social-icons a {
+  font-size: 1.2rem;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+
+header {
+  background-color: #ff3b3f; 
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Tahoma', sans-serif;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #fdd835; 
+}
+
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #ff3b3f;
+}
+
+
+p {
+  margin: 10px 20px;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px;
+}
+
+ul li {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ff3b3f;
+}
+
+ul li img {
+  display: block;
+  margin: 10px 0;
+  width: 120px;
+  height: auto;
+  border: 2px solid #ff3b3f;
+  border-radius: 8px;
+}
+
+
+ul li p {
+  margin: 5px 0 20px;
+  font-size: 0.9rem;
+  color: #555;
+  background-color: #fff5f5;
+  padding: 10px;
+  border-left: 4px solid #ff3b3f;
+  border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  header nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  header nav ul li {
+      margin: 5px 0;
+  }
+
+  ul li img {
+      width: 100%;
+      max-width: 200px;
+  }
+}
